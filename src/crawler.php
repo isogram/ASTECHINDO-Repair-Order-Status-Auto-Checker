@@ -31,7 +31,7 @@ $mCareForm = [
 ];
 
 // do request
-$response = $client->request('GET', $url, [
+$response = $client->request('POST', $url, [
     'form_params' => $mCareForm
 ]);
 
@@ -50,7 +50,7 @@ $mCareMessage = trim($tableRow[1]);
 
 // compare defined string with crawled string
 // if doesn't match send email to me!
-if (md5($mCareMessage) == $defaultMessage) {
+if (md5($mCareMessage) !== $defaultMessage) {
 
 	$subject = 'Your Status Repair!';
 	$from = array('from@example.com' =>'From Example');
