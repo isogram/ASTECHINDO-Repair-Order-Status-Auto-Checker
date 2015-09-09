@@ -1,0 +1,16 @@
+{
+    "name": "isogram/dom-parser",
+    "description": "Simple dom parser to check repair order m-care indonesia (astechindo)",
+    "require": {
+        "symfony/dom-crawler": "^2.7",
+        "guzzlehttp/guzzle": "^6.1",
+        "symfony/css-selector": "^2.7",
+        "swiftmailer/swiftmailer": "^5.4"
+    },
+    "authors": [
+        {
+            "name": "Muhammad Shidiq",
+            "email": "emshidiq@gmail.com"
+        }
+    ]
+}
