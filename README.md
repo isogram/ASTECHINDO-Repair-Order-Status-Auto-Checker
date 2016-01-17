@@ -9,4 +9,5 @@ I'm too lazy to check my status order in http://astech.co.id:66/Default.aspx
 1. clone this repo & do `composer install`
 2. put your mandrill username & api key in `src/crawler.php`, don't forget to change email destination
 3. still in `src/crawler.php` change array value in `$mCareForm` with your repair order number.
-4. add `src/crawler.php` in your cronjob 
+4. add `src/crawler.php` in your cronjob
+##testing
